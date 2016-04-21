@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'PFDinTextPro-Medium';
+  src: url('PFDinTextPro-Medium.eot');
+  src: url('PFDinTextPro-Medium.eot?#iefix') format('embedded-opentype'),
+       url('PFDinTextPro-Medium.woff2') format('woff2'),
+       url('PFDinTextPro-Medium.woff') format('woff'),
+       url('PFDinTextPro-Medium.ttf') format('truetype'),
+       url('PFDinTextPro-Medium.svg#PFDinTextPro-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,365 @@
+@font-face {
+  font-family: 'PFDinTextPro-Medium';
+  src: url('../fonts_m/PFDinTextPro-Medium.eot');
+  src: url('../fonts_m/PFDinTextPro-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts_m/PFDinTextPro-Medium.woff2') format('woff2'),
+       url('../fonts_m/PFDinTextPro-Medium.woff') format('woff'),
+       url('../fonts_m/PFDinTextPro-Medium.ttf') format('truetype'),
+       url('../fonts_m/PFDinTextPro-Medium.svg#PFDinTextPro-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PFDinTextPro-Regular';
+  src: url('../fonts_r/PFDinTextPro-Regular.eot');
+  src: url('../fonts_r/PFDinTextPro-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts_r/PFDinTextPro-Regular.woff2') format('woff2'),
+       url('../fonts_r/PFDinTextPro-Regular.woff') format('woff'),
+       url('../fonts_r/PFDinTextPro-Regular.ttf') format('truetype'),
+       url('../fonts_r/PFDinTextPro-Regular.svg#PFDinTextPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PFDinTextPro-Bold';
+  src: url('../fonts_b/PFDinTextPro-Bold.eot');
+  src: url('../fonts_b/PFDinTextPro-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts_b/PFDinTextPro-Bold.woff2') format('woff2'),
+       url('../fonts_b/PFDinTextPro-Bold.woff') format('woff'),
+       url('../fonts_b/PFDinTextPro-Bold.ttf') format('truetype'),
+       url('../fonts_b/PFDinTextPro-Bold.svg#PFDinTextPro-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#ardz_zakaz_main *{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-family: "Myriad Pro";
+	font-style: normal;
+	font-weight: 400;
+	background-color: transparent;
+	line-height: normal;
+	letter-spacing: normal;
+	vertical-align: baseline;
+	list-style: none;
+	border: none;
+}
+
+#ardz_zakaz_main{
+	min-width:1200px;
+}
+
+#ardz_zakaz_main .zakaz_blok1{/*оболочка*/
+	width:1100px;
+	margin-left:75px;
+	margin-top:40px;
+
+}
+
+#ardz_zakaz_main .zakaz_zag1{/*Свойства Заголовока "заказ и доставка"*/
+	font-family:"PFDinTextPro-Medium";
+	text-transform:uppercase;
+	font-size: 28px;
+	float:left;
+}
+
+#ardz_zakaz_main .zakaz_blok1 .zakaz_text1{/*Свойства текста Уважаемые клиенты...*/
+	width:1010px;
+	margin-top:15px;
+	font-family:"Myriad Pro";
+	font-size: 26px;
+	float:left;
+	line-height:1.2;
+}
+
+#ardz_zakaz_main .zakaz_blok2{/*оболочка всего, что до красного прямоугольника*/
+
+	float:left;
+	margin-top:45px;
+	width:535px;
+	height:440px;
+}
+
+#ardz_zakaz_main .zakaz_blok2 .pic1{/*Свойства вектора*/
+	float:left;
+}
+
+#ardz_zakaz_main .zakaz_text2{/*Свойства слова "Москва"*/
+	margin-top:8px;
+	margin-left:15px;
+	font-family:"PFDinTextPro-Medium";
+	font-size: 20px;
+	float:left;
+	line-height:1.2;
+	font-weight:normal;
+}
+
+#ardz_zakaz_main .zakaz_blok2 .zakaz_text3{/*Свойства текста "Доставка заказа..."*/
+	margin-top:15px;
+	font-family:"Myriad Pro";
+	font-size: 20px;
+	float:left;
+	line-height:1.2;
+}
+
+#ardz_zakaz_main .st_b{/*утолщение*/
+	font-weight:bold;
+}
+#ardz_zakaz_main .nowrap{
+	white-space: nowrap;
+}
+
+#ardz_zakaz_main .zakaz_blok2 .pic2{/*Свойства вектора*/
+	float:left;
+	margin-left:25px;
+	margin-top:13px;
+}
+
+#ardz_zakaz_main .zakaz_blok2 .pic1{/*Свойства вектора*/
+	float:left;
+}
+
+#ardz_zakaz_main .zakaz_text4{/*"12:00"*/
+	margin-left:15px;
+	font-family:"PFDinTextPro-Bold";
+	font-size: 43px;
+	float:left;
+	line-height:1.2;
+}
+
+#ardz_zakaz_main .zakaz_blok2 .zakaz_podblok1{/*Оболочка стрелки, 12:00, и текста "Заказ..."*/
+	width:240px;
+	height:140px;
+
+	float:left;
+	margin-top:90px;
+	padding-bottom:10px;
+}
+
+#ardz_zakaz_main .zakaz_text5{/*Свойства текста "Заказ..."*/
+	margin-top:35px;
+	width:85%;
+	margin-left:0px;
+	font-family:"PFDinTextPro-Regular";
+	font-size: 16px;
+	float:left;
+	line-height:1.2;
+}
+
+#ardz_zakaz_main .zakaz_text5 .bold{/*Утолщение 12:00 в тексте "Заказ..."*/
+	font-family:"PFDinTextPro-Medium";
+}
+
+#ardz_zakaz_main .zakaz_text6{/*Свойства текста "Стоимость..."*/
+	margin-top:8px;
+	font-family:"Myriad Pro";
+	font-size: 20px;
+	line-height:1.2;
+}
+
+#ardz_zakaz_main .zakaz_blok2 .pic3{/*Свойства вектора*/
+	float:left;
+	padding-right:25px;
+}
+
+#ardz_zakaz_main .zakaz_blok2 .zakaz_podblok2{/*Оболочка Купюр и текста "Стоимость..."*/
+	width:95%;
+	height:130px;
+	float:left;
+	margin-top:30px;
+}
+
+#ardz_zakaz_main .zakaz_blok3{/*Блок с красной рамкой*/
+	width:1065px;
+	height:135px;
+	float:left;
+	margin-left:-15px;
+	margin-top:40px;
+	border:solid 3px #fd0023;
+}
+
+#ardz_zakaz_main .zakaz_blok3 .zakaz_podblok3{/*подблок с вектором купальника и текстом из рамки*/
+	margin-top:22.5px;
+	margin-left:auto;
+	margin-right:auto;
+	width:450px;
+	height:90px;
+}
+
+#ardz_zakaz_main .zakaz_text7{/*Свойства текста в красной рамке*/
+	margin-top:-5px;
+	font-family:"Myriad Pro";
+	font-size: 20px;
+	line-height:1.2;
+}
+
+#ardz_zakaz_main .zakaz_blok3 .zakaz_podblok3 .pic4{/*Свойства вектора*/
+	float:left;
+	padding-right:30px;
+}
+
+#ardz_zakaz_main .zakaz_zag2{/*Свойства Заголовока "любой другой город рф"*/
+	width:100%;
+	font-family:"PFDinTextPro-Medium";
+	text-transform:uppercase;
+	font-size: 28px;
+	float:left;
+	margin-top:55px;
+	padding-bottom:20px;
+}
+
+#ardz_zakaz_main .zakaz_blok2 .img{/*Подблок с векторами почты купюр и часов*/
+	width:80px;
+	height:330px;
+	float:left;
+}
+
+#ardz_zakaz_main .zakaz_blok2 .text_blok{/*Подблок текста у векторов почты купюр и часов*/
+	float:left;
+	margin-left:25px;
+	width:420px;
+	height:330px;
+}
+
+#ardz_zakaz_main .zakaz_blok2 .pic5{/*Свойства вектора*/
+	margin-top:120px;
+}
+
+#ardz_zakaz_main .zakaz_blok2 .pic6{/*Свойства вектора*/
+	margin-top:40px;
+}
+
+#ardz_zakaz_main .zakaz_blok2 .text_blok .zakaz_text8{/*Свойства текста у векторов*/
+	float:left;
+	margin-top:0;
+	font-family:"Myriad Pro";
+	font-size: 18px;
+	line-height:1.2;
+	padding-bottom:74px;
+}
+
+#ardz_zakaz_main .zakaz_blok2 .text_blok .zakaz_text9{/*Свойства текста у векторов*/
+	font-family:"Myriad Pro";
+	font-size: 18px;
+	line-height:1.2;
+	padding-bottom:27.5px;
+}
+
+#ardz_zakaz_main .zakaz_blok2 .text_blok .zakaz_text10{/*Свойства текста у векторов*/
+	font-family:"Myriad Pro";
+	font-size: 18px;
+	line-height:1.2;
+}
+
+#ardz_zakaz_main .zakaz_blok2 .text_blok .zakaz_text8_1{/*Свойства текста у векторов*/
+	margin-top:0;
+	font-family:"Myriad Pro";
+	font-size: 18px;
+	line-height:1.2;
+	padding-bottom:115px;
+}
+
+#ardz_zakaz_main .zakaz_blok4{/*Оболочка зеленой надписи*/
+	margin-top:-50px;
+	width:95%;
+	height:80px;
+	float:left;
+}
+
+#ardz_zakaz_main .zakaz_blok4 .img2{/*подблок зеленого вектора*/
+	width:50px;
+	height:80px;
+	float:left;	
+	padding-right:20px;
+}
+
+#ardz_zakaz_main .zakaz_blok4 .text_blok3{/*подблок зеленого текста*/
+	width:925px;
+	float:left;	
+}
+
+#ardz_zakaz_main .zakaz_blok4 .zakaz_text11{/*Свойства зеленого текста*/
+	font-family:"Myriad Pro";
+	font-size: 20px;
+	color:#18a443;
+	float:left;
+	line-height:1.2;
+}
+
+#ardz_zakaz_main .zakaz_blok5{/*Блок с синей рамкой*/
+	width:1065px;
+	height:265px;
+	float:left;
+	margin-left:-15px;
+	margin-top:40px;
+	border:solid 3px #4d71b2;
+	margin-bottom:175px;
+}
+
+#ardz_zakaz_main .zakaz_blok5 .zakaz_podblok4{/*Подблок для векторов*/
+	width:60px;
+	height:260px;
+	float:left;
+	margin-left:25px;
+}
+
+#ardz_zakaz_main .zakaz_blok5 .zakaz_podblok4 .pic10{/*Свойства вектора*/
+	float:left;
+	margin-top:85px;
+	padding-bottom:20px;
+}
+
+#ardz_zakaz_main .zakaz_blok5 .zakaz_podblok4 .pic11{/*Свойства вектора*/
+	float:left;
+}
+
+#ardz_zakaz_main .zakaz_blok5 .text_blok4{/*Свойства подблока текста*/
+	width:400px;
+	height:260px;
+	float:left;
+	margin-left:30px;
+}
+
+#ardz_zakaz_main .zakaz_blok5 .text_blok4 .zakaz_text12{/*Свойства текста*/
+	margin-top:30px;
+	font-family:"Myriad Pro";
+	font-size: 24px;
+	line-height:1.2;
+	padding-bottom:35px;
+}
+
+#ardz_zakaz_main .zakaz_blok5 .text_blok4 .zakaz_text13{/*Свойства текста*/
+	font-family:"Myriad Pro";
+	font-size: 18px;
+	line-height:1.2;
+	padding-bottom:50px;
+}
+
+#ardz_zakaz_main .zakaz_blok5 .text_blok4 .zakaz_text14{/*Свойства текста*/
+	font-family:"Myriad Pro";
+	font-size: 18px;
+	line-height:1.2;
+	padding-bottom:15px;
+}
+
+#ardz_zakaz_main .zakaz_blok5 .text_blok4 .zakaz_text15{/*Свойства текста*/
+	font-family:"Myriad Pro";
+	font-size: 12px;
+	line-height:1.2;
+}
+
+#ardz_zakaz_main .zakaz_blok5 .zakaz_podblok5 .pic12{/*Свойства вектора*/
+	margin-top:110px;
+	float:left;
+}
+
+#ardz_zakaz_main .zakaz_blok5 .zakaz_podblok5{/*Свойства подблока текста*/
+	width:60px;
+	height:260px;
+	float:left;
+	margin-left:45px;
+}

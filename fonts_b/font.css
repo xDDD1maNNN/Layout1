@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'PFDinTextPro-Bold';
+  src: url('PFDinTextPro-Bold.eot');
+  src: url('PFDinTextPro-Bold.eot?#iefix') format('embedded-opentype'),
+       url('PFDinTextPro-Bold.woff2') format('woff2'),
+       url('PFDinTextPro-Bold.woff') format('woff'),
+       url('PFDinTextPro-Bold.ttf') format('truetype'),
+       url('PFDinTextPro-Bold.svg#PFDinTextPro-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
